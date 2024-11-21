@@ -1,0 +1,54 @@
+[
+    {
+      "id": "c67ab8a7",
+      "title": "Booki",
+      "cover": "/assets/booki.png",
+      "description": "Création la page d'accueil d'une agence de voyage avec HTML & CSS",
+      "competences": [
+        "HTML",
+        "CSS"
+      ],
+      "lien": "https://github.com/SKatia/Booki_Sch_Ek"
+    },
+    {
+      "id": "c67ab8a1",
+      "title": "Sophie Bluel",
+      "cover": "https://user.oc-static.com/upload/2023/10/10/16969371520395_Section%20mission.png",
+      "description": "Création une page web dynamique avec JavaScript",
+      "competences": [
+        "JavaScript"
+      ],
+      "lien": "https://github.com/SKatia/FDWEB_P3"
+    },
+    {
+      "id": "c67ab8a2",
+      "title": "Nina Carducci",
+      "cover": "https://user.oc-static.com/upload/2023/10/10/16969371520395_Section%20mission.png",
+      "description": "Débug et l'optimisation un site de photographe",
+      "competences": [
+        "Chrome DevTools"
+      ],
+      "lien": "https://github.com/SKatia/FDWEB_P4"
+    },
+    {
+      "id": "c67ab8a3",
+      "title": "Kasa",
+      "cover": "https://user.oc-static.com/upload/2023/04/03/1680512368252_Kasa%20logo.png",
+      "description": "Création une application web de location immobilière avec React",
+      "competences": [
+        "React"
+      ],
+      "lien": "https://github.com/SKatia/p5-kasa"
+    },
+    {
+      "id": "c67ab8a4",
+      "title": "Mon Vieux Grimoire ",
+      "cover": "https://user.oc-static.com/upload/2023/10/10/16969371520395_Section%20mission.png",
+      "description": "Développement le back-end d'un site de notation de livres",
+      "competences": [
+        "NodeJS",
+        "MongoDB"
+      ],
+      "lien": "https://github.com/SKatia/P6-MonVieuxGrimoire"
+    }
+  ]

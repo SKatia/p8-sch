@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.projets-grid {
+    background-color: $gris; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; // Расстояние между карточками
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 25px; 
+  }
+  .projet-card {
+    width: 500px;  
+    height: 300px; 
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    //background-color: $marine;
+    background: url('../../assets/sweden-6834164_1280.jpg');
+    overflow: hidden; // Для обрезки картинки по границам карточки
+    // transition: transform 0.2s;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    .projet-image {
+      width: 100%;
+      height: 100%;
+      object-fit:scale-down; // Изображение заполняет карточку, сохраняя пропорции
+    }
+  
+    .projet-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      // background: rgba(0, 0, 0, 0.5); // Полупрозрачный черный фон для текста
+      //color: white; // Белый цвет текста
+      text-align: left;
+      padding: 15px;
+      font-size: 18px;
+    }
+    p {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+  

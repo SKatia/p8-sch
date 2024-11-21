@@ -1,0 +1,134 @@
+@import '../../styles/variables.scss';
+
+// .home {
+//   margin: 50px; //
+// }
+// .fullscreen-image {
+//   height: 100vh; // Высота на весь экран
+//   width: 100vw; // Ширина на весь экран
+//   background-image: url('../../assets/sweden-6834164_1280.jpg');
+//   background-size: cover; // Масштабируем картинку, сохраняя пропорции
+//   background-position: center; // Центрируем картинку
+//   background-repeat: no-repeat; // Убираем повторение
+// }
+
+.typing {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white; // Курсор
+  animation: blink 0.7s step-end infinite;
+
+  @keyframes blink {
+    from {
+      border-right-color: white;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh; //200px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  //margin: 20px 0; //
+  //margin-bottom: 43px;
+
+  // Псевдоэлемент для картинки
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/sweden-6834164_1280.jpg') no-repeat center center;
+    //background: url("/assets/sweden-6834164_1280.jpg") no-repeat center center; //не работает, когда файл в public,что странно. Оставим файл в src
+    background-size: cover;
+    z-index: 1;
+    //border-radius: 20px; 
+  }
+
+  // Псевдоэлемент для затемнения
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    border-radius: 20px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    z-index: 3; // Текст выше всех слоев
+  }
+
+  p {
+    color: white;
+    font-size: 30px;
+    //font-weight: bold;
+    z-index: 3; // Текст выше всех слоев
+  }
+  
+  &__button {
+    z-index: 3; // Текст выше всех слоев
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: $marine;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+  .home {
+    margin: 20px; //
+  }
+
+  .banner {
+    margin-bottom: 20px; //
+    height: 111px;
+
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  .logements-grid {
+    background-color: white;
+    padding: 0;
+  }
+
+  .logement-card {
+    width: 100%;
+  }
+
+}

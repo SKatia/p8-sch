@@ -1,11 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './index.scss';
-import Home from './pages/home'
-// import APropos from './pages/apropos'
-//import LogementDetails from './pages/LogementDetails';
-//import Error from './pages/404'
-import Header from './components/Header'
+import Home from './pages/home/home'
+import APropos from './pages/apropos/apropos'
+import Portfolio from './pages/portfolio/portfolio'
+import Contact from './pages/contact/contact'
+import ProjetDetails from './pages/projetDetails/projetDetails';
+import Error from './pages/404/404'
+import Header from './components/Header/header'
 // import Footer from './components/Footer'
 import { createRoot } from 'react-dom/client';
 const container = document.getElementById('root');
@@ -17,9 +19,11 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/apropos" element={<APropos />} /> */}
-        {/* <Route path="/logement/:id" element={<LogementDetails />} /> */}
-        {/* <Route path="*" element={<Error />} /> */}
+        <Route path="/apropos" element={<APropos />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projet/:id" element={<ProjetDetails />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       {/* <Footer /> */}
     </Router>
