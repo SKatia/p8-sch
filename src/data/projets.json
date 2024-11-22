@@ -2,7 +2,7 @@
     {
       "id": "c67ab8a7",
       "title": "Booki",
-      "cover": "/assets/booki.png",
+      "cover": "/assets/booki11.png",
       "description": "Création la page d'accueil d'une agence de voyage avec HTML & CSS",
       "competences": [
         "HTML",
@@ -13,7 +13,7 @@
     {
       "id": "c67ab8a1",
       "title": "Sophie Bluel",
-      "cover": "https://user.oc-static.com/upload/2023/10/10/16969371520395_Section%20mission.png",
+      "cover": "/assets/sophie11.png",
       "description": "Création une page web dynamique avec JavaScript",
       "competences": [
         "JavaScript"
@@ -23,7 +23,7 @@
     {
       "id": "c67ab8a2",
       "title": "Nina Carducci",
-      "cover": "https://user.oc-static.com/upload/2023/10/10/16969371520395_Section%20mission.png",
+      "cover": "/assets/nina11.png",
       "description": "Débug et l'optimisation un site de photographe",
       "competences": [
         "Chrome DevTools"
@@ -43,7 +43,7 @@
     {
       "id": "c67ab8a4",
       "title": "Mon Vieux Grimoire ",
-      "cover": "https://user.oc-static.com/upload/2023/10/10/16969371520395_Section%20mission.png",
+      "cover": "/assets/grimoire11.png",
       "description": "Développement le back-end d'un site de notation de livres",
       "competences": [
         "NodeJS",
