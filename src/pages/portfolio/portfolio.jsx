@@ -29,7 +29,11 @@ const Portfolio = () => {
             className="projet-card"
             onClick={() => openModal(projet)}
             >
-            <img src={projet.cover} alt={projet.title} className="projet-image" />
+            <img 
+              src={`${process.env.PUBLIC_URL}${projet.cover}`} 
+              alt={projet.title} 
+              className="projet-image" 
+            />
               <div className="projet-overlay">
                 <p>{projet.title}</p>
               </div>

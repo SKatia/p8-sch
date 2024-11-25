@@ -2,7 +2,7 @@
     {
       "id": "c67ab8a7",
       "title": "Booki",
-      "cover": "../../assets/booki11.png",
+      "cover": "/assets/booki11.png",
       "description": "Création la page d'accueil d'une agence de voyage avec HTML & CSS",
       "competences": [
         "HTML",
