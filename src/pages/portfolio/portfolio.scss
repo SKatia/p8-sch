@@ -2,7 +2,8 @@
 
 .projets-grid {
  // background-color: $gris;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.jpg') no-repeat center center;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   gap: 25px; // Расстояние между карточками
