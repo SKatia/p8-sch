@@ -14,7 +14,7 @@ const root = createRoot(container); // createRoot(container!) if you use TypeScr
 root.render(
 
   <React.StrictMode>
-    <Router>
+    <Router basename="/p8-sch">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
