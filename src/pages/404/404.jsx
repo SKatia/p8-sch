@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Error = () => {
   return (
     <div className="erreur">
-      <h2> Erreur </h2>
+      <h2> 404 </h2>
     </div>
   );
 };
