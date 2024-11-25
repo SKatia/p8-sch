@@ -11,7 +11,7 @@ import Header from './components/Header/header'
 import { createRoot } from 'react-dom/client';
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
-const basename = process.env.NODE_ENV === "production" ? "/p8-sch" : "/";
+const basename = process.env.NODE_ENV === "production" ? "/schaeveka" : "/";
 
 root.render(
 
