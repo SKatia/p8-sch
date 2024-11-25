@@ -16,9 +16,35 @@
         justify-content: space-around;
     }
 
+// .group-competences {
+//     margin: 10px;
+// }
     .outils {
         margin-top: 40px;
         display: flex;
         justify-content: space-around;
     }
 
+/****** Media queries ***********/
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .competences {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        p {
+            margin: 5px;
+        }
+
+    }
+    .outils {
+        margin-top: 0;
+        // display: flex;
+        // justify-content: space-around;
+        flex-direction: column;
+        p {
+            margin: 5px;
+        }
+    }
+
+}

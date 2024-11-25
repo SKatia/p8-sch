@@ -8,8 +8,9 @@ function Header() {
       <header>
         <nav >
           {/* <img className="logo" src={logo} alt="logo" /> */}
-          <div className='logo'>Ekaterina Schaeverbeke
-            <span>développeur web</span>
+          <div className='logo'>
+            <span>Ekaterina Schaeverbeke</span>
+            <span id='textDev'>développeur web</span>
           </div> 
           <div className="menu">
             <NavLink to="/">Accueil</NavLink>

@@ -33,7 +33,7 @@
     {
       "id": "c67ab8a3",
       "title": "Kasa",
-      "cover": "https://user.oc-static.com/upload/2023/04/03/1680512368252_Kasa%20logo.png",
+      "cover": "/assets/kasa.png",
       "description": "Création une application web de location immobilière avec React",
       "competences": [
         "React"

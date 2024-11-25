@@ -57,7 +57,8 @@ const Portfolio = () => {
             </button>
             <h2>{selectedProject.title}</h2>
             <img
-              src={selectedProject.cover}
+              src={`${process.env.PUBLIC_URL}${selectedProject.cover}`} 
+              // src={`%PUBLIC_URL%{selectedProject.cover}`} 
               alt={selectedProject.title}
               className="modal-image"
             />

@@ -11,10 +11,12 @@ import Header from './components/Header/header'
 import { createRoot } from 'react-dom/client';
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
+const basename = process.env.NODE_ENV === "production" ? "/p8-sch" : "/";
+
 root.render(
 
   <React.StrictMode>
-    <Router basename="/p8-sch">
+    <Router basename={basename}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

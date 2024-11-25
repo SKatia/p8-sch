@@ -10,7 +10,7 @@ const Apropos = () => {
       {/* <div > */}
         <h2> Mes compétences </h2>
         <div className="competences">
-          <div className='front'>
+          <div className='group-competences'>
             <h3>Front-end</h3>
             <p>HTML</p>
             <p>CSS (SASS)</p>
@@ -19,7 +19,7 @@ const Apropos = () => {
             <p>Développement d’interfaces responsives</p>
             {/* <p>Optimisation des performances (Lighthouse)</p> */}
           </div>
-          <div className='back'>
+          <div className='group-competences'>
             <h3>Back-end</h3>
             <p>NodeJS, Express</p>
             <p>MongoDB, MySQL </p>
@@ -27,7 +27,7 @@ const Apropos = () => {
             <p>JSON Web Tokens</p>
             {/* <p>Mécanismes d’authentification (JWT)</p> */}
           </div>
-          <div className='data'>
+          <div className='group-competences'>
             <h3>Analyse de données</h3>
             {/* <p>Collect, modélisation, prédiction, visualisations de données</p> */}
             <p>Python</p>
