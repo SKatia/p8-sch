@@ -84,6 +84,13 @@
     z-index: 3; // Текст выше всех слоев
   }
   
+  .presentation {
+    z-index: 3; // Текст выше всех слоев
+    p{
+      font-size: 20px;
+    }
+  }
+  
   &__button {
     z-index: 3; // Текст выше всех слоев
     padding: 10px 20px;
@@ -101,6 +108,15 @@
     }
   }
 
+}
+.link_portfolio {
+  color: $blue; // цвет ссылки при наведении
+  text-decoration: underline; // подчеркивание при наведении
+
+  // &:hover {
+  //   color: $marine; // цвет ссылки при наведении
+  //   text-decoration: underline; // подчеркивание при наведении
+  // }
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

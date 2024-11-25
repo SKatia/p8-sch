@@ -16,7 +16,7 @@ function Header() {
             <NavLink to="/">Accueil</NavLink>
             <NavLink to="/portfolio">Portfolio</NavLink>
             <NavLink to="/apropos">A propos</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            {/* <NavLink to="/contact">Contact</NavLink> */}
             </div>
         </nav>
       </header>

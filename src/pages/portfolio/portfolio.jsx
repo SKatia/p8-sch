@@ -63,7 +63,7 @@ const Portfolio = () => {
               className="modal-image"
             />
             <p>{selectedProject.description}</p>
-            <h3>Competences:</h3>
+            <h3>Technologies utilisées:</h3>
             <ul>
               {selectedProject.competences.map((skill, index) => (
                 <li key={index}>{skill}</li>
@@ -75,7 +75,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="github-link"
             >
-              View on GitHub
+              <i className="fa-brands fa-github"></i> View on GitHub
             </a>
           </div>
         </Modal>
