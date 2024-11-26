@@ -48,7 +48,7 @@ const Apropos = () => {
           </div>
         {/* <p>SEO</p> */}
       {/* </div> */}
-      <div classname="formations">
+      <div className="formations">
         <h2> Formations </h2>
         <img src={"/assets/OpCllogo.jpeg"} alt={"logo formation"} className="logo-formation" />
         <span> 2024 Développeur WEB, OpenClassrooms</span>
