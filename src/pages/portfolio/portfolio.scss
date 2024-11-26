@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .projets-grid {
- // background-color: $gris;
+  //background-color: $blue;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.jpg') no-repeat center center;
   background-size: cover;
   display: flex;
@@ -18,9 +18,7 @@
   position: relative;
   border-radius: 10px;
   padding: 5px;
-  //background-color: $marine;
   //background-color: $blue;
-//  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.jpg');
   overflow: hidden; // Для обрезки картинки по границам карточки
   // transition: transform 0.2s;
 
@@ -60,6 +58,7 @@
   // Появление текста при наведении
   &:hover .projet-overlay {
     opacity: 1;
+    cursor: pointer;
   }
 
   }
@@ -126,14 +125,14 @@
       display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
-      background: #007bff;
+      background: $blue;
       color: white;
       border-radius: 5px;
       text-decoration: none;
       transition: background 0.3s ease;
   
       &:hover {
-        background: #0056b3;
+        background: $marine;
       }
     }
   }

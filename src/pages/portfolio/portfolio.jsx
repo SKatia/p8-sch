@@ -22,8 +22,6 @@ const Portfolio = () => {
       {/* <h2> Portfolio </h2> */}
       <div className="projets-grid">
         {projets.map(projet => (
-          //<Link to={`/projet/${projet.id}`} key={projet.id} className="projet-card-link">
-            //<div className="projet-card">
             <div
             key={projet.id}
             className="projet-card"
@@ -42,7 +40,7 @@ const Portfolio = () => {
         ))}
       </div>
 
-      {/* Модальное окно */}
+      {/* Modal */}
       {selectedProject && (
         <Modal
           isOpen={!!selectedProject}

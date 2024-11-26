@@ -12,17 +12,19 @@ const Apropos = () => {
         <div className="competences">
           <div className='group-competences'>
             <h3>Front-end</h3>
-            <p>HTML</p>
-            <p>CSS (SASS)</p>
-            <p>JavaScript</p>
-            <p>React</p>
+            <p><i className="fa-brands fa-html5"></i> HTML</p>
+            <p><i className="fa-brands fa-css"></i> CSS 
+              (<i className="fa-brands fa-sass"></i> SASS)
+            </p>
+            <p><i className="fa-brands fa-js"></i> JavaScript</p>
+            <p><i className="fa-brands fa-react"></i> React</p>
             <p>Développement d’interfaces responsives</p>
             {/* <p>Optimisation des performances (Lighthouse)</p> */}
           </div>
           <div className='group-competences'>
             <h3>Back-end</h3>
-            <p>NodeJS, Express</p>
-            <p>MongoDB, MySQL </p>
+            <p><i className="fa-brands fa-node-js"></i> NodeJS, Express</p>
+            <p><i className="fa-solid fa-database"></i> MongoDB, MySQL </p>
             <p>API REST</p>
             <p>JSON Web Tokens</p>
             {/* <p>Mécanismes d’authentification (JWT)</p> */}
@@ -30,31 +32,33 @@ const Apropos = () => {
           <div className='group-competences'>
             <h3>Analyse de données</h3>
             {/* <p>Collect, modélisation, prédiction, visualisations de données</p> */}
-            <p>Python</p>
+            <p><i className="fa-brands fa-python"></i> Python</p>
             <p>librairies Numpy, Pandas</p>
             <p>Power BI</p>
             <p></p>
           </div>
         </div>
+        <h3 className='titre-outils'>Outils</h3>
         <div className='outils'>
-            <h3>Outils</h3>
             <p>Lighthouse</p>
-            <p>Chrome DevTools</p>
-            <p>Git et GitHub</p>
-            <p>Visual Studio</p>
+            <p><i className="fa-brands fa-chrome"></i> Chrome DevTools</p>
+            <p><i className="fa-brands fa-github"></i> Git et GitHub</p>
+            <p>Visual Studio Code</p>
             <p>Jupyter Notebook</p>
           </div>
         {/* <p>SEO</p> */}
       {/* </div> */}
-      {/* <div classname="formations">
+      <div classname="formations">
         <h2> Formations </h2>
-        <img src={"\assets\OpCllogo.jfif"} alt={"logo formation"} className="logo-formation" />
-        <p>2024 Développeur WEB, OpenClassrooms</p>
-        <img src={"\assets\OpCllogo.jfif"} alt={"logo formation"} className="logo-formation" />
-        <p>2022 Data analyst, OpenClassrooms </p>
-        <img src={"\assets\polytech_logo.png"} alt={"logo university"} className="logo-formation" />
-        <p>Ingénieur en informatique, Université Polytechnique Nationale</p>
-      </div> */}
+        <img src={"/assets/OpCllogo.jpeg"} alt={"logo formation"} className="logo-formation" />
+        <span> 2024 Développeur WEB, OpenClassrooms</span>
+        <p></p>
+        <img src={"/assets/OpCllogo.jpeg"} alt={"logo formation"} className="logo-formation" />
+        <span> 2022 Data analyst, OpenClassrooms </span>
+        <p></p>
+        <img src={"/assets/polytech_logo.png"} alt={"logo university"} className="logo-univer" />
+        <span> Ingénieur en informatique, Université Polytechnique Nationale</span>
+      </div>
     </div>
   );
 };
