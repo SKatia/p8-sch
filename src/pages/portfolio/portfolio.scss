@@ -6,7 +6,7 @@
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
-  gap: 25px; // Расстояние между карточками
+  gap: 25px; // entre les cards
   justify-content: space-around;
   padding: 40px;
   //border-radius: 25px;
@@ -135,4 +135,6 @@
         background: $marine;
       }
     }
+  }
+  @media (max-width: 767.98px) {
   }

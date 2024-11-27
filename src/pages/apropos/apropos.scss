@@ -1,4 +1,5 @@
-@import '../../styles/variables.scss';
+// @import '../../styles/variables.scss';
+@use '../../styles/variables.scss' as *;
 
 h2 {
     color: white;
@@ -60,7 +61,21 @@ h2 {
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
-
+.formation-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+  
+  .formation-row {
+    display: flex;
+    flex-direction: column; 
+    p {
+        margin: 0.75em;
+    }
+}
+    
 /****** Media queries ***********/
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
