@@ -14,7 +14,8 @@
 
 .projet-card {
   width: 500px;
-  height: 300px;
+  aspect-ratio: 5 / 3; /* Высота автоматически рассчитывается для пропорции 16:9 */
+  //height: 300px;
   position: relative;
   border-radius: 10px;
   padding: 5px;
@@ -137,4 +138,13 @@
     }
   }
   @media (max-width: 767.98px) {
+    .projet-card {
+      width: 100%;  
+      // aspect-ratio: 1 / 1; /* Высота автоматически рассчитывается для пропорции 16:9 */
+    }
+    .projets-grid {
+      gap: 5px; // entre les cards
+      padding: 20px;
+    }
+
   }

@@ -29,7 +29,7 @@ const Home = () => {
           Contactez-moi
         </Link> */}
         <div className='presentation'>
-          <p>Je suis développeur web passionnée par la création d’applications modernes et performantes.
+          <p className='presentation-p1'>Je suis développeur web passionnée par la création d’applications modernes et performantes.
             Mon parcours combine une solide formation académique, une riche expérience professionnelle et un désir constant d’apprendre et
             de m’adapter aux nouvelles technologies.</p>
           <p>Je cherche à allier mon expérience en développement logiciel et mes compétences récentes en développement web

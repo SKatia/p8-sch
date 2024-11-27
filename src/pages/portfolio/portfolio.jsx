@@ -73,7 +73,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="github-link"
             >
-              <i className="fa-brands fa-github"></i> View on GitHub
+              <i className="fa-brands fa-github"></i> GitHub
             </a>
           </div>
         </Modal>

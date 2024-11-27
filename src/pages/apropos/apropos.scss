@@ -42,7 +42,7 @@ h2 {
 .competences p,
 .outils p {
     margin: 0; // 
-    padding: 8px 0;
+    padding: 8px 1px;
 }
 
 .logo-formation {
@@ -83,4 +83,7 @@ h2 {
         flex-direction: column;
     }
 
+    .apropos {
+        background-color: white;
+    }    
 }
