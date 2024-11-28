@@ -15,7 +15,7 @@ h2 {
     height: 100vh; //200px;
     text-align: center;
     //color: white; 
-    //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.jpg');
+    //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.webp');
 }
 
 .competences {
@@ -48,6 +48,7 @@ h2 {
 .logo-formation {
     width: 25px;
 }
+
 .logo-univer {
     width: 90px;
 }
@@ -57,25 +58,36 @@ h2 {
     height: auto;
     vertical-align: bottom;
 }
+
 .titre-outils {
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
+
 .formation-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
     margin-bottom: 1.5em;
 }
-  
-  .formation-row {
+
+.formation-row {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+
     p {
         margin: 0.75em;
     }
 }
-    
+
+// .formation-et-logo-2024 {
+//     text-align: right;
+// }
+
+// .formation-et-logo-2022 {
+//     text-align: left;
+// }
+
 /****** Media queries ***********/
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -85,5 +97,19 @@ h2 {
 
     .apropos {
         background-color: white;
-    }    
+    }
+
+    // .formation-et-logo-2024 {
+    //     padding-right: 2px;
+    // }
+
+    // .formation-et-logo-2022 {
+    //     padding-left: 2px;
+    // }
+
+    // .formation-row {
+    //     p {
+    //         display: none;
+    //     }
+    // }
 }

@@ -2,7 +2,7 @@
     {
       "id": "c67ab8a7",
       "title": "Booki",
-      "cover": "/assets/booki11.png",
+      "cover": "/assets/booki11.webp",
       "description": "Création la page d'accueil d'une agence de voyage avec HTML & CSS",
       "competences": [
         "HTML",
@@ -13,7 +13,7 @@
     {
       "id": "c67ab8a1",
       "title": "Sophie Bluel",
-      "cover": "/assets/sophie11.png",
+      "cover": "/assets/sophie11.webp",
       "description": "Création une page web dynamique avec JavaScript",
       "competences": [
         "JavaScript"
@@ -23,7 +23,7 @@
     {
       "id": "c67ab8a2",
       "title": "Nina Carducci",
-      "cover": "/assets/nina11.png",
+      "cover": "/assets/nina11.webp",
       "description": "Débug et l'optimisation un site de photographe",
       "competences": [
         "Chrome DevTools"
@@ -35,6 +35,7 @@
       "title": "Kasa",
       "cover": "/assets/kasa.png",
       "description": "Création une application web de location immobilière avec React",
+      "commentaire": "",
       "competences": [
         "React"
       ],
@@ -43,11 +44,13 @@
     {
       "id": "c67ab8a4",
       "title": "Mon Vieux Grimoire ",
-      "cover": "/assets/grimoire11.png",
+      "cover": "/assets/grimoire11.webp",
       "description": "Développement le back-end d'un site de notation de livres",
+      "commentaire": "Ce projet met en avant des compétences clés en développement web, comme la manipulation des bases de données, la création d'API RESTful, et l'intégration frontend-backend.",
       "competences": [
-        "NodeJS",
-        "MongoDB"
+        "NodeJS, Express",
+        "MongoDB",
+        "JWT"
       ],
       "lien": "https://github.com/SKatia/P6-MonVieuxGrimoire"
     }

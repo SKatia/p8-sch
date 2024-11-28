@@ -2,7 +2,7 @@
 
 .projets-grid {
   //background-color: $blue;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/sweden-6834164_1280.webp') no-repeat center center;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
@@ -116,6 +116,10 @@
     h2 {
       margin-bottom: 10px;
     }
+
+    h3 {
+      margin: 10px;
+    }
   
     p {
       margin-bottom: 10px;
@@ -124,7 +128,7 @@
   
     .github-link {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 10px;
       padding: 10px 20px;
       background: $blue;
       color: white;

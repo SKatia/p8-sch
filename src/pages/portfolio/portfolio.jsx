@@ -61,6 +61,7 @@ const Portfolio = () => {
               className="modal-image"
             />
             <p>{selectedProject.description}</p>
+            <p>{selectedProject.commentaire}</p>
             <h3>Technologies utilisées:</h3>
             <ul>
               {selectedProject.competences.map((skill, index) => (

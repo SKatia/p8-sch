@@ -52,7 +52,7 @@ const Apropos = () => {
         <h2> Formations </h2>
         <div class="formation-container">
           <div class="formation-row">
-            <div className='formation-et-logo'>
+            <div className='formation-et-logo-2024'>
               <img src={`${process.env.PUBLIC_URL}/assets/OpCllogo.jpeg`} alt={"logo formation"} className="logo-formation" />
               {/* <img src={`${process.env.PUBLIC_URL}/assets/image.png`} alt="example" /> */}
               <span> Développeur WEB, OpenClassrooms 2024</span>
@@ -63,7 +63,7 @@ const Apropos = () => {
           <div class="formation-row">
             {/* <span class="year">2022</span> */}
             <p></p>
-            <div className='formation-et-logo'>
+            <div className='formation-et-logo-2022'>
               <span> 2022 Data analyst, OpenClassrooms </span>
               <img src={`${process.env.PUBLIC_URL}/assets/OpCllogo.jpeg`} alt={"logo formation"} className="logo-formation" />
             </div>
