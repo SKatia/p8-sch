@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 //import logements from './../../data/logements.json';
 import './home.scss'
-//import { ReactTyped } from 'react-typed';
+import { ReactTyped } from 'react-typed';
 
 const Home = () => {
 
@@ -11,20 +11,19 @@ const Home = () => {
       {/* <div className="fullscreen-image"></div>; */}
       <div className='banner'>
         <h1> Ekaterina Schaeverbeke </h1>
-        {/* <ReactTyped
+        <ReactTyped
           className="typing"
           strings={[
-            'Web-developpeur',
+            'Web-développeur',
             'Créatrice de solutions numériques',
-            'Développeuse passionnée',
+            'Data analyst',
           ]}
           typeSpeed={50} // Скорость печатания
           backSpeed={30} // Скорость удаления текста
           backDelay={2000} // Задержка перед удалением
           loop // Бесконечный цикл
-        /> */}
-        {/* <p className="typing">{displayText}</p> */}
-        <p>Web-développeur</p>
+        />
+        {/* <p>Web-développeur</p> */}
         {/* <Link to="/contact" className="banner__button">
           Contactez-moi
         </Link> */}

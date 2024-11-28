@@ -13,20 +13,21 @@
 // }
 
 .typing {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 30px;
   color: white;
   border-right: 2px solid white; // Курсор
   animation: blink 0.7s step-end infinite;
+  z-index: 3; // Text above
+  margin: 30px;
 
-  @keyframes blink {
-    from {
-      border-right-color: white;
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
+  // @keyframes blink {
+  //   from {
+  //     border-right-color: white;
+  //   }
+  //   to {
+  //     border-right-color: transparent;
+  //   }
+  // }
 }
 
 .banner {
@@ -77,14 +78,16 @@
     z-index: 3; // Текст выше всех слоев
   }
 
-  p {
-    color: white;
-    font-size: 30px;
-    //font-weight: bold;
-    z-index: 3; // Текст выше всех слоев
-  }
+  // p {
+  //   color: white;
+  //   font-size: 30px;
+  //   //font-weight: bold;
+  //   z-index: 3; // Текст выше всех слоев
+  // }
   
   .presentation {
+    margin: 20px;
+    color: white;
     z-index: 3; // Текст выше всех слоев
     p{
       font-size: 20px;
@@ -152,9 +155,11 @@
       h1 {
       font-size: 24px;
     }
-    p {
-      font-size: 18px;
-    }
+    // p {
+    //   font-size: 18px;
+    // }
   }
-
+  .typing {
+    font-size: 18px;
+  }  
 }
