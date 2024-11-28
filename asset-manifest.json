@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/schaeveka/static/css/main.4fbe2251.css",
-    "main.js": "/schaeveka/static/js/main.f9e59c70.js",
+    "main.js": "/schaeveka/static/js/main.7e34be9f.js",
     "static/media/sweden-6834164_1280.webp": "/schaeveka/static/media/sweden-6834164_1280.e53bc08105afe135e24e.webp",
     "index.html": "/schaeveka/index.html",
     "main.4fbe2251.css.map": "/schaeveka/static/css/main.4fbe2251.css.map",
-    "main.f9e59c70.js.map": "/schaeveka/static/js/main.f9e59c70.js.map"
+    "main.7e34be9f.js.map": "/schaeveka/static/js/main.7e34be9f.js.map"
   },
   "entrypoints": [
     "static/css/main.4fbe2251.css",
-    "static/js/main.f9e59c70.js"
+    "static/js/main.7e34be9f.js"
   ]
 }
