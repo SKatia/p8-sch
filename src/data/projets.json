@@ -4,6 +4,7 @@
       "title": "Booki",
       "cover": "/assets/booki11.webp",
       "description": "Création la page d'accueil d'une agence de voyage avec HTML & CSS",
+      "commentaire": "Intégration l'interface responsive du site.",
       "competences": [
         "HTML",
         "CSS"
@@ -15,8 +16,11 @@
       "title": "Sophie Bluel",
       "cover": "/assets/sophie11.webp",
       "description": "Création une page web dynamique avec JavaScript",
+      "commentaire": "Créer une page web pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API",
       "competences": [
-        "JavaScript"
+        "JavaScript",
+        "Notion",
+        "Postman"
       ],
       "lien": "https://github.com/SKatia/FDWEB_P3"
     },
@@ -25,7 +29,9 @@
       "title": "Nina Carducci",
       "cover": "/assets/nina11.webp",
       "description": "Débug et l'optimisation un site de photographe",
+      "commentaire": "Optimisation le référencement du site, en améliorant sa performance et son accessibilité",
       "competences": [
+        "Lighthouse",
         "Chrome DevTools"
       ],
       "lien": "https://github.com/SKatia/FDWEB_P4"
@@ -35,10 +41,11 @@
       "title": "Kasa",
       "cover": "/assets/kasa.png",
       "description": "Création une application web de location immobilière avec React",
-      "commentaire": "",
+      "commentaire": "Implémentation le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive",
       "competences": [
         "React",
-        "Sass"
+        "Create React App, React Router",
+        "animations CSS, Sass"
       ],
       "lien": "https://github.com/SKatia/p5-kasa"
     },
@@ -50,7 +57,7 @@
       "commentaire": "Ce projet met en avant des compétences clés en développement web, comme la manipulation des bases de données, la création d'API RESTful, et l'intégration frontend-backend.",
       "competences": [
         "NodeJS, Express",
-        "MongoDB",
+        "MongoDB, Mongoose",
         "JWT"
       ],
       "lien": "https://github.com/SKatia/P6-MonVieuxGrimoire"
