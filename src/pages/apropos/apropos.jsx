@@ -69,7 +69,7 @@ const Apropos = () => {
             </div>
           </div>
         </div>
-        <img src={`${process.env.PUBLIC_URL}/assets/polytech_logo.png`} alt={"logo university"} className="logo-univer" />
+        <img src={`${process.env.PUBLIC_URL}/assets/polytech_logo.webp`} alt={"logo university"} className="logo-univer" />
         <span> Ingénieur en informatique, Université Polytechnique Nationale</span>
       </div>
     </div>

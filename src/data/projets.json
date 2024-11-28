@@ -37,7 +37,8 @@
       "description": "Création une application web de location immobilière avec React",
       "commentaire": "",
       "competences": [
-        "React"
+        "React",
+        "Sass"
       ],
       "lien": "https://github.com/SKatia/p5-kasa"
     },

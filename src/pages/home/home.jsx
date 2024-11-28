@@ -18,9 +18,9 @@ const Home = () => {
             'Créatrice de solutions numériques',
             'Data analyst',
           ]}
-          typeSpeed={50} // Скорость печатания
-          backSpeed={30} // Скорость удаления текста
-          backDelay={2000} // Задержка перед удалением
+          typeSpeed={50} // 
+          backSpeed={30} // speed deleting
+          backDelay={2000} // delay before deleting
           loop // Бесконечный цикл
         />
         {/* <p>Web-développeur</p> */}
